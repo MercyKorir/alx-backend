@@ -1,0 +1,1 @@
+This is the main repository for the second month of Specialization projects
