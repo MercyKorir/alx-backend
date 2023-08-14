@@ -56,6 +56,8 @@ class Server:
             next_page = page + 1
         else:
             next_page = None
+        if page_length == 1:
+            prev_page = None
         if page_length > 1:
             prev_page = page - 1
         else:
